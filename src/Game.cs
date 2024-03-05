@@ -67,7 +67,7 @@ class Game
 			finished = ProcessCommand(command);
 		}
 		Console.WriteLine("Bedankt voor het spelen.");
-		Console.WriteLine("Druk [Enter] om verdder te gaan.");
+		Console.WriteLine("Druk [Enter] om verder te gaan.");
 		Console.ReadLine();
 	}
 
@@ -194,7 +194,7 @@ private bool ProcessCommand(Command command)
 			// Iterate over elk item in player zijn inv
 			foreach (var itemEntry in items)
 			{
-				Console.WriteLine($"- {itemEntry.Key}: Weight {itemEntry.Value.Weight}");
+				Console.WriteLine($"- {itemEntry.Key}: ({itemEntry.Value.Weight} kg)");
 			}
 		}
 		else
