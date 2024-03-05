@@ -1,0 +1,30 @@
+C:\Users\Rejha\OneDrive\Bureaublad\Zuul\Zuul\bin\Debug\net8.0\Zuul.exe
+C:\Users\Rejha\OneDrive\Bureaublad\Zuul\Zuul\bin\Debug\net8.0\Zuul.deps.json
+C:\Users\Rejha\OneDrive\Bureaublad\Zuul\Zuul\bin\Debug\net8.0\Zuul.runtimeconfig.json
+C:\Users\Rejha\OneDrive\Bureaublad\Zuul\Zuul\bin\Debug\net8.0\Zuul.dll
+C:\Users\Rejha\OneDrive\Bureaublad\Zuul\Zuul\bin\Debug\net8.0\Zuul.pdb
+C:\Users\Rejha\OneDrive\Bureaublad\Zuul\Zuul\obj\Debug\net8.0\Zuul.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rejha\OneDrive\Bureaublad\Zuul\Zuul\obj\Debug\net8.0\Zuul.AssemblyInfoInputs.cache
+C:\Users\Rejha\OneDrive\Bureaublad\Zuul\Zuul\obj\Debug\net8.0\Zuul.AssemblyInfo.cs
+C:\Users\Rejha\OneDrive\Bureaublad\Zuul\Zuul\obj\Debug\net8.0\Zuul.csproj.CoreCompileInputs.cache
+C:\Users\Rejha\OneDrive\Bureaublad\Zuul\Zuul\obj\Debug\net8.0\Zuul.sourcelink.json
+C:\Users\Rejha\OneDrive\Bureaublad\Zuul\Zuul\obj\Debug\net8.0\Zuul.dll
+C:\Users\Rejha\OneDrive\Bureaublad\Zuul\Zuul\obj\Debug\net8.0\refint\Zuul.dll
+C:\Users\Rejha\OneDrive\Bureaublad\Zuul\Zuul\obj\Debug\net8.0\Zuul.pdb
+C:\Users\Rejha\OneDrive\Bureaublad\Zuul\Zuul\obj\Debug\net8.0\Zuul.genruntimeconfig.cache
+C:\Users\Rejha\OneDrive\Bureaublad\Zuul\Zuul\obj\Debug\net8.0\ref\Zuul.dll
+C:\Users\Rejha\OneDrive\Bureaublad\Module 5\Zuul\bin\Debug\net8.0\Zuul.exe
+C:\Users\Rejha\OneDrive\Bureaublad\Module 5\Zuul\bin\Debug\net8.0\Zuul.deps.json
+C:\Users\Rejha\OneDrive\Bureaublad\Module 5\Zuul\bin\Debug\net8.0\Zuul.runtimeconfig.json
+C:\Users\Rejha\OneDrive\Bureaublad\Module 5\Zuul\bin\Debug\net8.0\Zuul.dll
+C:\Users\Rejha\OneDrive\Bureaublad\Module 5\Zuul\bin\Debug\net8.0\Zuul.pdb
+C:\Users\Rejha\OneDrive\Bureaublad\Module 5\Zuul\obj\Debug\net8.0\Zuul.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rejha\OneDrive\Bureaublad\Module 5\Zuul\obj\Debug\net8.0\Zuul.AssemblyInfoInputs.cache
+C:\Users\Rejha\OneDrive\Bureaublad\Module 5\Zuul\obj\Debug\net8.0\Zuul.AssemblyInfo.cs
+C:\Users\Rejha\OneDrive\Bureaublad\Module 5\Zuul\obj\Debug\net8.0\Zuul.csproj.CoreCompileInputs.cache
+C:\Users\Rejha\OneDrive\Bureaublad\Module 5\Zuul\obj\Debug\net8.0\Zuul.sourcelink.json
+C:\Users\Rejha\OneDrive\Bureaublad\Module 5\Zuul\obj\Debug\net8.0\Zuul.dll
+C:\Users\Rejha\OneDrive\Bureaublad\Module 5\Zuul\obj\Debug\net8.0\refint\Zuul.dll
+C:\Users\Rejha\OneDrive\Bureaublad\Module 5\Zuul\obj\Debug\net8.0\Zuul.pdb
+C:\Users\Rejha\OneDrive\Bureaublad\Module 5\Zuul\obj\Debug\net8.0\Zuul.genruntimeconfig.cache
+C:\Users\Rejha\OneDrive\Bureaublad\Module 5\Zuul\obj\Debug\net8.0\ref\Zuul.dll
