@@ -1,7 +1,0 @@
-.vs*
-build
-bin
-obj
-
-*.sln
-.DS*
