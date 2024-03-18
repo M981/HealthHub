@@ -84,7 +84,18 @@ document.addEventListener("DOMContentLoaded", function() {
         clearOutput(); 
         appendOutput("Hier kan je lines toevoegen voor wanneer iemand op de site komt");
         // appendOutput("You find yourself outside the main entrance of the university.");
-        appendOutput("Typ 'help' om de beschikbare commando's te zien.");
+        appendOutput("Druk 'Enter' om verder te gaan.");
+        document.addEventListener("keydown", introText);
+    }
+
+    function introText(event) {
+        if (event.key === "Enter") {
+            clearOutput(); 
+            appendOutput("Typ 'help' om de beschikbare commando's te zien.");
+            appendOutput("Typ 'help' om de beschikbare commando's te zien.");
+            appendOutput("Typ 'help' om de beschikbare commando's te zien.");
+            appendOutput("Typ 'help' om de beschikbare commando's te zien.");
+        }
     }
 
     commandForm.addEventListener("submit", function(event) {
@@ -253,8 +264,7 @@ document.addEventListener("DOMContentLoaded", function() {
             commandInput.disabled = false;
         }
     }
-    
-    
+
     function removeItemFromInventory(item) {
         player.inventory = player.inventory.filter(invItem => invItem !== item);
     }

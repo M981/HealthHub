@@ -1,5 +1,6 @@
 {
     "conventionalCommits.scopes": [
-        "C# Code"
+        "C# Code",
+        "main.js"
     ]
 }
