@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Adventure Game</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet"> 
+</head>
+<body>
+    <div class="container">
+        <header class="mt-4 mb-4">
+            <h1 class="text-center">Text Adventure Game</h1>
+        </header>
+
+        <div id="game-container" class="text-center">
+            <img id="game-image" src="test.png" alt="Game Image" class="img-fluid">
+            <div id="game-output" class="mt-4 mb-4">
+            </div>
+            <form id="command-form">
+                <input type="text" id="command-input" class="form-control mb-2" placeholder="Enter command...">
+                <button type="submit" class="btn btn-primary btn-block">Submit</button>
+            </form>
+            <div id="commands-help" class="mt-4">
+            </div>
+        </div>
+    </div>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
