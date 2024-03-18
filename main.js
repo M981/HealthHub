@@ -258,7 +258,7 @@ document.addEventListener("DOMContentLoaded", function() {
     function handleRestart(event) {
         if (event.key === "Enter") {
             document.removeEventListener("keydown", handleRestart);
-            displayStartingMessage();
+            introText('enter')
             player.currentRoom = 'outside'; 
             player.health = 100
             commandInput.disabled = false;
