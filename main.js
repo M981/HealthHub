@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 },
                 items: [
                     { name: "medikit", weight: 5, action: "heal" },
-                    { name: "flashlight", weight: 2, action: "illuminate" },
+                    { name: "flashlight", weight: 25, action: "illuminate" },
                     { name: "key", weight: 1, action: "unlock" }
                 ]
             },
@@ -116,7 +116,6 @@ document.addEventListener("DOMContentLoaded", function() {
     displayStartingMessage();
     function displayStartingMessage() {
         clearOutput();
-        // appendOutput("You find yourself outside the main entrance of the university.");
         disableInput();
         appendOutput("Je bent een student op het alfacollege en krijgt een voorlichting over hoe 2040 er uitziet in de zorg. De docent legt uit dat er veel vergrijzing is en je op steeds meer mensen moet gaan zorgen. ");
         appendOutput(".................");
@@ -254,7 +253,7 @@ document.addEventListener("DOMContentLoaded", function() {
     function showStatus() {
         clearOutput();
         appendOutput("> Vermoeidheid: " + player.health);
-        appendOutput("> Inventory:");
+        appendOutput("> Inventory: " + "0/" + player.maxWeight + "KG");
         player.inventory.forEach(item => {
             const itemNameCapitalized = item.name.charAt(0).toUpperCase() + item.name.slice(1);
             appendOutput("- " + itemNameCapitalized + " (" + item.weight + "KG)");
