@@ -65,10 +65,10 @@ header {
 
 #game-output {
     background-color: #f0f0f0;
-    padding: 10px;
+    padding: 5px;
     border-radius: 5px;
     text-align: left;
-    height: 150px; 
+    height: 200px; 
     overflow-y: auto;
     margin-bottom: 20px;
 }
