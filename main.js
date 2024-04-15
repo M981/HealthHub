@@ -5,8 +5,8 @@ document.addEventListener("DOMContentLoaded", function() {
     const statusOutput = document.getElementById("status-output");
     const player = {
         currentRoom: "buiten",
-        health: 10000,
-        maxHealth: 100,
+        health: 0,
+        maxHealth: 0,
         maxWeight: 25,
         inventory: [],
         rooms: {
@@ -140,7 +140,7 @@ document.addEventListener("DOMContentLoaded", function() {
         event.preventDefault();
     
         const command = commandInput.value.trim().toLowerCase();
-        if (player.health > 0) {
+        if (player.health < 100) {
             if (command === "kijk") {
                 look();
             } else if (command.startsWith("ga ")) {
@@ -232,8 +232,8 @@ document.addEventListener("DOMContentLoaded", function() {
         const item = player.inventory.find(item => item.name === itemName);
         if (item) {
             if (item.action === "heal") {
-                if (player.health < player.maxHealth) {
-                    player.health = Math.min(player.health + 50, player.maxHealth);
+                if (player.health > player.maxHealth) {
+                    player.health = Math.min(player.health - 50, player.maxHealth);
                     appendOutput("> You used the medikit and restored 50 health.");
                     removeItemFromInventory(item);
                     clearOutput();
@@ -283,8 +283,8 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
     function takeDamage(amount) {
-        player.health -= amount;
-        if (player.health <= 0) {
+        player.health += amount;
+        if (player.health >= 100) {
             disableInput();
             clearOutput();
             appendOutput("> You died.");
@@ -314,7 +314,7 @@ document.addEventListener("DOMContentLoaded", function() {
             document.removeEventListener("keydown", handleRestart);
             introText('enter')
             player.currentRoom = 'outside'; 
-            player.health = 100
+            player.health = 0
             enableInput();
         }
     }
